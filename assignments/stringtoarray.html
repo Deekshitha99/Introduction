@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String to array</title>
+</head>
+<body>
+	<p>
+	<script>
+		function stringtoarray(str)
+		{
+			var array=str.split(" ");
+			document.write("[");
+			for(var x=0;x<array.length;x++)
+			{
+				document.write("\""+array[x]+"\"");
+				if(x!=array.length-1)
+					document.write(",");
+			}
+			document.write("]")
+		}
+		stringtoarray("abdul kalam is noblest person");
+	</script>
+</p>
+</body>
+</html>

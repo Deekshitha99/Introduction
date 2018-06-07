@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Larger elements in array</title>
+</head>
+<body>
+	<p>
+	<script>
+		function biggernumbers(arr,n)
+		{
+			var result=[];
+			for(var i=0;i<arr.length;i++)
+			{
+				if(arr[i]>n)
+				{
+					result.push(arr[i]);
+				}
+			}
+			document.write(result);
+		}
+		biggernumbers([1,3,4,6],3)
+	</script>
+</p>
+</body>
+</html>
